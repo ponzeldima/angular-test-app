@@ -26,9 +26,8 @@ export class StopwatchComponent{
 
 
   private startTimer() {
-    let observableTimer = timer(0, 1000);
+    let observableTimer = timer(1000, 1000);
     this.timerSubsription = observableTimer.subscribe(val => {
-      //console.log(this.Seconds);
       this.Seconds += 1;
     });
   }
