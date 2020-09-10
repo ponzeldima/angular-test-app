@@ -1,0 +1,6 @@
+<p id="stopwatchText">
+    {{Seconds | stopwatchPipe }}
+</p>
+<button (click)="stopStart()">{{stopStartButtonTitle}}</button>
+<button (click)="wait()">Wait</button>
+<button (click)="reset()">Reset</button>
