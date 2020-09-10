@@ -67,10 +67,10 @@ export class StopwatchComponent{
       }
       else {
         this.waitButtonClicked = true;
-        console.log(true);
+        //console.log(true);
         setTimeout(() => {
           this.waitButtonClicked = false;
-          console.log(false);
+          //console.log(false);
         }, 300);
       }
     }
